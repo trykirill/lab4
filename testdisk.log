@@ -1,0 +1,45 @@
+
+
+Thu Jan 26 06:29:25 2023
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.18.0-kali5-amd64 (#1 SMP PREEMPT_DYNAMIC Debian 5.18.5-1kali6 (2022-07-07)) x86_64
+Compiler: GCC 12.2
+ext2fs lib: 1.46.6-rc1, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.3
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop1 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop2 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop3 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop4 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop5 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop6 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop7 - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 128 GB / 119 GiB - CHS 15600 255 63, sector size=512 - Samsung Flash Drive, FW:1100
+Disk /dev/loop0 - 3317 MB / 3164 MiB - 6480160 sectors (RO), sector size=512
+Disk /dev/nvme0n1 - 512 GB / 476 GiB - CHS 488386 64 32, sector size=512
+
+Partition table type (auto): Intel
+Disk /dev/sda - 128 GB / 119 GiB - Samsung Flash Drive
+Partition table type: Intel
+
+Interface Advanced
+Geometry from i386 MBR: head=255 sector=63
+FAT32 at 0/32/33
+Info: size boot_sector 11549160, partition 11549160
+FAT1 : 32-1441
+FAT2 : 1442-2851
+start_rootdir : 2852 root cluster : 2
+Data : 2852-11549155
+sectors : 11549160
+cluster_size : 64
+no_of_cluster : 180411 (2 - 180412)
+fat_length 1410 calculated 1410
+ 1 * FAT32 LBA                0  32 33   719   7 32   11549160 [KALI LIVE]
+     FAT32, blocksize=32768, 5913 MB / 5639 MiB
+ 2 P Linux                  719   7 33 15600 198 32  239075298 [persistence]
+     ext3 blocksize=4096 Large_file Sparse_SB Recover, 122 GB / 113 GiB
+SIGHUP detected! TestDisk has been killed.
