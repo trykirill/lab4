@@ -47,13 +47,6 @@ TEST(my_lib, Test_excursion_001){
     ASSERT_EQ(excursion2->get_code(), num2);    
 }
 
-TEST(my_lib, Test_excursion_002){
-
-}
-
-TEST(my_lib, Test_excursion_003){
-}
-
 //clutch_table
 
 Clutch_Table table;
